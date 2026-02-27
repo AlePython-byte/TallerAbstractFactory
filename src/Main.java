@@ -87,7 +87,7 @@ final class Document {
     }
 }
 
-/* ======== Familias concretas (Abstract Factory) ======== */
+/*  Familias concretas (Abstract Factory) */
 
 final class EnrollmentFactory extends DocumentFactory {
     Template createTemplate() { return new EnrollmentTemplate(); }
